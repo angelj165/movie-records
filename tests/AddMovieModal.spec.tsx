@@ -326,3 +326,8 @@ describe("AddMovieModal Component", () => {
         expect(buttons.length).toBeGreaterThan(0);
     });
 });
+
+//adding test here .
+test(" ", () => {
+    render(<AddMovieModal show={true} handleClose={} addMovie={} />);
+});
